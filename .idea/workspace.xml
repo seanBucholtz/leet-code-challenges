@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dea2be2-1958-4d1f-9cf7-f2722e3b6317" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seanbucholtz/leetcodechallenges/primepalindrome/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,23 +17,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="418">
+              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1216#1225#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Move.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/seanbucholtz/leetcodechallenges/primepalindrome/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -43,9 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -70,6 +72,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/twosum/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Move.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/tolowercase/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/seanbucholtz/leetcodechallenges/primepalindrome/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/Solution.java" />
       </list>
     </option>
   </component>
@@ -134,7 +139,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodechallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="robotreturntoorigin" type="462c0819:PsiDirectoryNode" />
+              <item name="primepalindrome" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545968340013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545974216791" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -157,6 +162,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.seanbucholtz.leetcodechallenges.primepalindrome" />
       <recent name="com.seanbucholtz.leetcodechallenges.maxchunkstomakesorted" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -175,18 +181,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="SolutionTest.maxChunksToSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leet-code-challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.maxchunkstomakesorted.*" />
+          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.primepalindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.maxchunkstomakesorted" />
-      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.maxchunkstomakesorted.SolutionTest" />
-      <option name="METHOD_NAME" value="maxChunksToSorted" />
+      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome.SolutionTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.primePalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.primepalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome.SolutionTest" />
+      <option name="METHOD_NAME" value="primePalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.primePalindrome_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.primepalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome.SolutionTest" />
+      <option name="METHOD_NAME" value="primePalindrome_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.primePalindrome_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.primepalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome.SolutionTest" />
+      <option name="METHOD_NAME" value="primePalindrome_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.primePalindrome_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leet-code-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seanbucholtz.leetcodechallenges.primepalindrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.seanbucholtz.leetcodechallenges.primepalindrome.SolutionTest" />
+      <option name="METHOD_NAME" value="primePalindrome_3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,7 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.maxChunksToSorted" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.primePalindrome_1" />
+        <item itemvalue="JUnit.SolutionTest.primePalindrome_3" />
+        <item itemvalue="JUnit.SolutionTest.primePalindrome_2" />
+        <item itemvalue="JUnit.SolutionTest.primePalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545957206636</updated>
-      <workItem from="1545957207830" duration="8189000" />
+      <workItem from="1545957207830" duration="14750000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project">
       <created>1545957702837</created>
@@ -301,46 +373,77 @@
       <option name="project" value="LOCAL" />
       <updated>1545968087996</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Completed Robot Return to Origin">
+      <created>1545968267868</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545968267868</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed To Lowercase">
+      <created>1545968500905</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1545968500905</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_maxChunksToSorted - 2018.12.27 at 17h 44m 21s.xml">
-      <configuration name="SolutionTest.maxChunksToSorted" configurationId="JUnit" />
+    <history-entry file="SolutionTest_primePalindrome_2 - 2018.12.27 at 21h 00m 29s.xml">
+      <configuration name="SolutionTest.primePalindrome_2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_maxChunksToSorted - 2018.12.27 at 19h 04m 19s.xml">
-      <configuration name="SolutionTest.maxChunksToSorted" configurationId="JUnit" />
+    <history-entry file="SolutionTest_primePalindrome_3 - 2018.12.27 at 21h 04m 53s.xml">
+      <configuration name="SolutionTest.primePalindrome_3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_maxChunksToSorted - 2018.12.27 at 19h 05m 15s.xml">
-      <configuration name="SolutionTest.maxChunksToSorted" configurationId="JUnit" />
+    <history-entry file="SolutionTest_primePalindrome_3 - 2018.12.27 at 21h 06m 26s.xml">
+      <configuration name="SolutionTest.primePalindrome_3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_maxChunksToSorted - 2018.12.27 at 19h 10m 37s.xml">
-      <configuration name="SolutionTest.maxChunksToSorted" configurationId="JUnit" />
+    <history-entry file="SolutionTest_primePalindrome_3 - 2018.12.27 at 21h 06m 43s.xml">
+      <configuration name="SolutionTest.primePalindrome_3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_primePalindrome_3 - 2018.12.27 at 21h 11m 36s.xml">
+      <configuration name="SolutionTest.primePalindrome_3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_primePalindrome_1 - 2018.12.27 at 21h 12m 07s.xml">
+      <configuration name="SolutionTest.primePalindrome_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest_primePalindrome_1 - 2018.12.27 at 21h 12m 42s.xml">
+      <configuration name="SolutionTest.primePalindrome_1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.12.27 at 21h 12m 58s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.12.27 at 21h 14m 22s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolutionTest - 2018.12.27 at 21h 14m 31s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8189000" />
+    <option name="totallyTimeSpent" value="14750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -405,7 +508,9 @@
     <MESSAGE value="Completed Reverse Integer" />
     <MESSAGE value="Completed Valid Parentheses" />
     <MESSAGE value="Completed Two Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Two Sum" />
+    <MESSAGE value="Completed Robot Return to Origin" />
+    <MESSAGE value="Completed To Lowercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed To Lowercase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -439,6 +544,12 @@
           <line>29</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/Solution.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -587,10 +698,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/tolowercase/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/robotreturntoorigin/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/PrimePalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/seanbucholtz/leetcodechallenges/primepalindrome/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seanbucholtz/leetcodechallenges/primepalindrome/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1216#1225#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
