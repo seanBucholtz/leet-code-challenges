@@ -36,4 +36,34 @@ public class SolutionTest {
 
         Assert.assertTrue(s.primePalindrome(input) == expectedOutput);
     }
+
+    @Test
+    public void primePalindrome_4() {
+        int input = 8;
+        int expectedOutput = 11;
+
+        Solution s = new Solution();
+
+        Assert.assertTrue(s.primePalindrome(input) == expectedOutput);
+    }
+
+    @Test
+    public void primePalindrome_5() {
+        int input = 102;
+        int expectedOutput = 131;
+
+        Solution s = new Solution();
+
+        Assert.assertTrue(s.primePalindrome(input) == expectedOutput);
+    }
+
+    @Test
+    public void primePalindrome_6() {
+        int input = 6;
+        int expectedOutput = 7;
+
+        Solution s = new Solution();
+
+        Assert.assertTrue(s.primePalindrome(input) == expectedOutput);
+    }
 }
