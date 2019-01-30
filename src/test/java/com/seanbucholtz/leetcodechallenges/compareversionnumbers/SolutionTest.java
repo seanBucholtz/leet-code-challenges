@@ -6,11 +6,21 @@ import static org.junit.Assert.*;
 
 public class SolutionTest {
 
-//    @Test
-//    public void compareVersion_1() {
-//        Solution solution = new Solution();
-////        Solution.Version v1 = solution.getVersion("0.1");
-////        Solution.Version v2 = solution.getVersion("1.1");
-////        assertEquals(-1, solution.compareVersion("0.1", "1.1"));
-//    }
+    @Test
+    public void compareVersion_1() {
+        Solution solution = new Solution();
+        assertEquals(-1, solution.compareVersion("0.1", "1.1"));
+    }
+
+    @Test
+    public void compareVersion_2() {
+        Solution solution = new Solution();
+        assertEquals(0, solution.compareVersion("1.0", "1"));
+    }
+
+    @Test
+    public void compareVersion_3() {
+        Solution solution = new Solution();
+        assertEquals(1, solution.compareVersion("1.0.1", "1"));
+    }
 }

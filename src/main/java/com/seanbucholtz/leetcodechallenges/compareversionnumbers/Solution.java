@@ -2,11 +2,12 @@ package com.seanbucholtz.leetcodechallenges.compareversionnumbers;
 
 import java.util.Comparator;
 
+@SuppressWarnings("Duplicates")
 public class Solution {
 
     class Version implements Comparator<Version> {
 
-        static final String VERSION_DELIMITER = ".";
+        static final String VERSION_DELIMITER = "\\.";
 
         private final Integer[] versionArray;
         private final String versionString;
@@ -21,8 +22,6 @@ public class Solution {
             this.versionArray = versionIntArr;
         }
 
-        public Integer[] getVersionArray() { return this.versionArray; }
-
         @Override
         public String toString() {
             return this.versionString;
@@ -36,10 +35,34 @@ public class Solution {
                 }
             }
             int diff = v1.versionArray.length - v2.versionArray.length;
+
             if(diff == 0) {
                 return diff;
             }
+
+            boolean remainderAllZeros;
+
+            if(diff > 0) {
+                remainderAllZeros = allZeros(v1.versionArray, v2.versionArray.length, v1.versionArray.length);
+            }
+            else {
+                remainderAllZeros = allZeros(v2.versionArray, v1.versionArray.length, v2.versionArray.length);
+            }
+
+            if(remainderAllZeros) {
+                return 0;
+            }
+
             return diff > 0 ? 1 : -1;
+        }
+
+        private boolean allZeros(Integer[] integers, int from, int to) {
+            for(int i = from; i < integers.length && i < to; i++) {
+                if(integers[i] != 0) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
@@ -52,4 +75,5 @@ public class Solution {
         Version v2 = new Version(version2);
         return v1.compare(v1, v2);
     }
+
 }
