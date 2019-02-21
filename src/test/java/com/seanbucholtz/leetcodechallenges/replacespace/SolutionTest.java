@@ -13,10 +13,10 @@ public class SolutionTest {
         assertEquals("test%20test%20test", s.replaceSpaces(input.toCharArray(), 14));
     }
 
-    @Test
-    public void replaceSpaces_1() {
-        Solution s = new Solution();
-        String input = "   test test test   ";
-        assertEquals("test%20test%20test", s.replaceSpaces(input.toCharArray(), 14));
-    }
+//    @Test
+//    public void replaceSpaces_1() {
+//        Solution s = new Solution();
+//        String input = "   test test test   ";
+//        assertEquals("test%20test%20test", s.replaceSpaces(input.toCharArray(), 14));
+//    }
 }
